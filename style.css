@@ -45,7 +45,6 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.25em;
-    /* border: 1px solid black; */
  }
 
  .form-group{
@@ -99,12 +98,18 @@ button{
     display:none;
  }
 
- .success-message{
+ .successMessage-container{
     text-align: center;
     padding: 1.4rem;
     border-radius: 0.3rem;
     margin-top: 1.25rem;
-    display: none;
  }
 
- 
+ .hide{
+   display:none;
+ }
+
+ #msg{
+   font-size: 4rem;
+   color:black;
+ }
